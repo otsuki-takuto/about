@@ -131,7 +131,8 @@ section h2 span {
 /* SEC03 BRAND
 ------------------------------------------------------------*/
 .col4 .img{
-	margin: 0 auto;
+	/*margin: 0 auto;*/
+	text-align: right;
 }
 
 
