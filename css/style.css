@@ -554,7 +554,7 @@ img.takuto{
 
 
 /*-----------------------------------------------------------*/
-html {
+/*html {
   background: #CCD0D4;
   min-height: 100%;
 }
@@ -622,7 +622,7 @@ h1.loader {
 
 @media screen and (max-width: 460px){
 .none {display:none}
-}
+}*/
 /*-----------------------------------------------------------*/
 @media screen and (max-width: 460px){
 	p.w-nomal{
