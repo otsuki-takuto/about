@@ -1,0 +1,455 @@
+/*
+	mouse-hover2.css
+*/
+.box {
+	margin: 8px;
+	float:	left;
+}
+.box p {
+	font-size: 14px;
+	text-align:			center;
+}
+.sample1 {
+	width:				280px;
+	height:				188px;
+	overflow:			hidden;
+	margin:				10px 8px 10px 16px;
+	position:			relative;
+}
+.sample1 .caption {
+	font-size:			130%;
+	text-align: 		center;
+	padding-top:		80px;
+	color:				#fff;
+}
+.sample1 .mask {
+	width:				100%;
+	height:				100%;
+	position:			absolute;
+	top:				0;
+	left:				0;
+	opacity:			0;
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition: all 0.2s ease;
+	transition:			all 0.2s ease;
+}
+.sample1:hover .mask {
+	opacity:			1;
+}
+
+.sample2 {
+	width:				280px;
+	height:				188px;
+	overflow:			hidden;
+	margin:				10px 8px 10px 16px;
+	position:			relative;
+}
+.sample2 .caption {
+	font-size:			130%;
+	text-align: 		center;
+	color:				#fff;
+}
+.sample2 .mask {
+	width:				100%;
+	height:				100%;
+	position:			absolute;
+	top:				0;
+	left:				0;
+	opacity:			0;
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition: all 0.6s ease;
+	transition:			all 0.6s ease;
+}
+.sample2:hover .mask {
+	opacity:			1;
+	padding-top:		80px;
+}
+
+.sample3 {
+	width:				280px;
+	height:				188px;
+	overflow:			hidden;
+	margin:				10px 8px 10px 16px;
+	position:			relative;
+}
+.sample3 .caption {
+	font-size:			130%;
+	color:				#fff;
+	padding-top:		80px;
+	padding-left:		0px;
+}
+.sample3 .mask {
+	width:				100%;
+	height:				100%;
+	position:			absolute;
+	top:				0;
+	left:				0;
+	opacity:			0;
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition:	all 0.6s ease;
+	transition:			all 0.6s ease;
+}
+.sample3:hover .mask {
+	opacity:			1;
+	padding-left:		90px;
+}
+
+.sample4 {
+	width:				280px;
+	height:				188px;
+	overflow:			hidden;
+	margin:				10px 8px 10px 16px;
+	position:			relative;
+}
+.sample4 .caption {
+	font-size:			130%;
+	text-align: 		center;
+	color:				#fff;
+	padding-top:		80px;
+}
+.sample4 .mask {
+	width:				100%;
+	height:				100%;
+	position:			absolute;
+	top:				0;
+	left:				0;
+	opacity:			0;
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition:	all 0.4s ease-out;
+	transition:			all 0.4s ease-out;
+}
+.sample4:hover .mask {
+	opacity:			1;
+	-webkit-transform:	scale(2);
+	transform:			scale(2);
+}
+
+.sample5 {
+	width:				280px;
+	height:				188px;
+	overflow:			hidden;
+	margin:				10px 8px 10px 16px;
+	position:			relative;
+}
+.sample5 .caption {
+	font-size:			130%;
+	color:				#fff;
+	padding-top:		80px;
+	padding-left:		100px;
+}
+.sample5 .mask {
+	width:				100%;
+	height:				100%;
+	position:			absolute;
+	top:				0;
+	left:				0;
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition: all 0.4s ease;
+	transition:			all 0.4s ease;
+	-webkit-transform:	scale(0);
+	transform:			scale(0);
+}
+.sample5:hover .mask {
+	-webkit-transform:	scale(1);
+	transform:			scale(1);
+}
+
+.sample6 {
+	width:				280px;
+	height:				188px;
+	overflow:			hidden;
+	margin:				10px 8px 10px 16px;
+	position:			relative;
+}
+.sample6 .caption {
+	font-size:			130%;
+	color:				#fff;
+	padding-top:		80px;
+	padding-left:		100px;
+}
+.sample6 .mask {
+	width:				100%;
+	height:				100%;
+	position:			absolute;
+	top:				-100%;
+	left:				0;
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition:	all 0.6s ease;
+	transition:			all 0.6s ease;
+}
+.sample6:hover .mask {
+	top:				0;
+}
+
+.sample7 {
+	width:				280px;
+	height:				188px;
+	overflow:			hidden;
+	margin:				10px 8px 10px 16px;
+	position:			relative;
+}
+.sample7 .caption {
+	font-size:			130%;
+	color:				#fff;
+	text-align: 		center;
+	padding-top:		80px;
+}
+.sample7 .mask {
+	width:				100%;
+	height:				100%;
+	position:			absolute;
+	top:				0;
+	left:				0;
+	opacity:			0;
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transform:	rotateX(-180deg);
+	transform:			rotateX(-180deg);
+	-webkit-transition: all 0.6s ease;
+	transition:			all 0.6s ease;
+}
+.sample7:hover .mask {
+	-webkit-transform:	rotateX(0deg);
+	transform:			rotateX(0deg);
+	opacity:			1;
+}
+
+.sample8 {
+	width:				280px;
+	height:				188px;
+	overflow:			hidden;
+	margin:				10px 8px 10px 16px;
+	position:			relative;
+}
+.sample8 .caption {
+	font-size:			130%;
+	color:				#fff;
+	text-align: 		center;
+	padding-top:		80px;
+}
+.sample8 .mask {
+	width:				100%;
+	height:				100%;
+	position:			absolute;
+	top:				0;
+	left:				0;
+	opacity:			0;
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transform:	rotateY(-180deg);
+	transform:			rotateY(-180deg);
+	-webkit-transition:	all 0.6s ease;
+	transition:			all 0.6s ease;
+}
+.sample8:hover .mask {
+	-webkit-transform:	rotateY(0deg);
+	transform:			rotateY(0deg);
+	opacity:			1;
+}
+
+.sample9 {
+	width:				280px;
+	height:				188px;
+	overflow:			hidden;
+	margin:				10px 8px 10px 16px;
+	position:			relative;
+}
+.sample9 .caption {
+	font-size:			130%;
+	color:				#fff;
+	text-align: 		center;
+	padding-top:		80px;
+}
+.sample9 .mask {
+	width:				100%;
+	height:				100%;
+	position:			absolute;
+	top:				0;
+	left:				0;
+	opacity:			0;
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition:	all 0.6s ease;
+	transition:			all 0.6s ease;
+}
+.sample9:hover .mask {
+	-webkit-transform:	rotate(360deg);
+	transform:			rotate(360deg);
+	opacity:			1;
+}
+
+.sample10 {
+	width:				280px;
+	height:				188px;
+	overflow:			hidden;
+	margin:				10px 8px 10px 16px;
+	position:			relative;
+}
+.sample10 .caption {
+	font-size:			130%;
+	color:				#fff;
+	padding-top:		10px;
+	text-align: 		center;
+}
+.sample10 .mask {
+	width:				100%;
+	height:				50px;
+	position:			absolute;
+	top:				-50px;
+	left:				0;
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition: all 0.4s ease;
+	transition:			all 0.4s ease;
+}
+.sample10:hover .mask {
+	top:				0px;
+}
+.sample10 img {
+	-webkit-transition:	all 0.4s ease;
+	transition:			all 0.4s ease;
+	-webkit-transform:	scale(1.2);
+	transform:			scale(1.2);
+}
+.sample10:hover img {
+	margin-top:			50px;
+	-webkit-transform:	scale(1);
+	transform:			scale(1);
+}
+
+.sample11 {
+	width:				280px;
+	height:				188px;
+	overflow:			hidden;
+	margin:				10px 8px 10px 16px;
+	position:			relative;
+}
+.sample11 .caption {
+	font-size:			130%;
+	color:				#fff;
+	padding-top:		80px;
+	padding-left:		20px;
+}
+.sample11 .mask {
+	width:				50%;
+	height:				100%;
+	position:			absolute;
+	top:				0;
+	left:				0;
+	margin-left:		-50%;
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition: all 0.4s ease;
+	transition:			all 0.4s ease;
+}
+.sample11:hover .mask {
+	margin-left:		0px;
+}
+.sample11 img {
+	-webkit-transition: all 0.4s ease;
+	transition:			all 0.4s ease;
+}
+.sample11:hover img {
+	margin-left:		50%;
+}
+
+.sample12 {
+	width:				280px;
+	height:				188px;
+	overflow:			hidden;
+	margin:				10px 8px 10px 16px;
+	position:			relative;
+}
+.sample12 .caption {
+	width:				100%;
+	height:				100%;
+	visibility:			hidden;
+	font-size:			130%;
+	top:				0;
+	left:				0;
+	position:			absolute;
+	text-align:			center;
+	-webkit-transition: all 0.4s step-end;
+	transition:			all 0.4s step-end;
+}
+.sample12:hover .caption {
+	visibility:			visible;
+}
+.sample12 .caption p {
+	font-size:			130%;
+	padding-top:		75px;
+	color:				#fff;
+	opacity:			0;
+}
+.sample12:hover .caption p {
+	opacity:			1;
+}
+.sample12 .mask1, .sample12 .mask2 {
+	width:				100%;
+	height:				50%;
+	position:			absolute;
+	left:				0;
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition: all 0.4s ease;
+	transition:			all 0.4s ease;
+}
+.sample12 .mask1 {
+	top:				-50%;
+}
+.sample12:hover .mask1 {
+	top:				0;
+}
+.sample12 .mask2 {
+	bottom:				-50%;
+}
+.sample12:hover .mask2 {
+	bottom:				0;
+}
+
+.sample13 {
+	width:				280px;
+	height:				188px;
+	overflow:			hidden;
+	margin:				10px 8px 10px 16px;
+	position:			relative;
+}
+.sample13 .caption {
+	width:				100%;
+	height:				100%;
+	visibility:			hidden;
+	font-size:			130%;
+	position:			absolute;
+	top:				0;
+	left:				0;
+	text-align:			center;
+	-webkit-transition: all 0.4s step-end;
+	transition:			all 0.4s step-end;
+}
+.sample13:hover .caption {
+	visibility:			visible;
+}
+.sample13 .caption p {
+	font-size:			130%;
+	padding-top:		75px;
+	color:				#fff;
+	opacity:			0;
+}
+.sample13:hover .caption p {
+	opacity:			1;
+}
+.sample13 .mask1, .sample13 .mask2 {
+	width:				50%;
+	height:				100%;
+	position:			absolute;
+	top:				0;
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition: all 0.4s ease;
+	transition:			all 0.4s ease;
+}
+.sample13 .mask1 {
+	left:				-50%;
+}
+.sample13:hover .mask1 {
+	left:				0px;
+}
+.sample13 .mask2 {
+	right:				-50%;
+}
+.sample13:hover .mask2 {
+	right:				0px;
+}
