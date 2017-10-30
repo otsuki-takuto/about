@@ -671,6 +671,11 @@ p.b-keep{
   word-break: keep-all;
 }
 
+#textstyle{
+  font-size: 30px;
+  color: #a9a9a9;
+  text-align: center;
+}
 
 #page-top {
     position: fixed;

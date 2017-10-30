@@ -1,0 +1,136 @@
+﻿.title_jp {
+	font-family: "ＭＳ ゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+}
+.item_name_jp {
+	font-family: "ＭＳ ゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #1A61A9;
+}
+.item_name_en {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #1A61A9;
+}
+.title_en {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
+
+.title_en_B {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+}
+
+.normal_text {
+	font-family: "ＭＳ ゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	vertical-align:top;
+}
+.midle_text {
+	font-family: "ＭＳ ゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	vertical-align:top;
+}
+.small_text {
+	font-family: "ＭＳ ゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	vertical-align:top;
+}
+.title_mid_jp {
+	font-family: "ＭＳ ゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	letter-spacing: 0.2em;
+}
+.title_mid_en {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	letter-spacing: 0.1em;
+}
+.item_name_jp_s {
+	font-family: "ＭＳ ゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #1A61A9;
+}
+.attn_jp {
+	font-family: "ＭＳ ゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	font-size: 8px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
+.attn_en {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
+.table_margin {
+	margin-top:5px;
+}
+.table_border{
+	border: 1px solid #1a61a9;
+	border-collapse: collapse;
+	background-color: #dde7f2;
+}
+.table_border td{
+	border: 1px solid #1a61a9;
+}
+.table_color tr{
+	background-color: #dde7f2 !important;
+}
+.demo1{
+  text-align: left;
+}
+SELECT.long {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; BORDER-LEFT: #999999 1px solid; WIDTH: 135px; BORDER-BOTTOM: #999999 1px solid
+}
+SELECT.middle {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; BORDER-LEFT: #999999 1px solid; WIDTH: 65px; BORDER-BOTTOM: #999999 1px solid
+}
